@@ -49,9 +49,9 @@ export default class Content extends Component {
 		if (this.state.selected === 'all') {
 			return this.state.cards;
 		} else {
-         //console.log('state',this.state.cards)
-         let filtred = this.state.cards.filter((card) => card.tab === this.state.selected);
-         console.log(filtred)
+			//console.log('state',this.state.cards)
+			let filtred = this.state.cards.filter((card) => card.tab === this.state.selected);
+			console.log(filtred);
 
 			return filtred;
 		}
