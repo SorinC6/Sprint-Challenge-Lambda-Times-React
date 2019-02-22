@@ -23,7 +23,7 @@ const Tab = (props) => {
 export default Tab;
 
 Tab.propTypes = {
-	tab: PropTypes.string,
+	tab: PropTypes.string.isRequired,
 	selectedTab: PropTypes.string,
-	selectTabHandler: PropTypes.func
+	selectTabHandler: PropTypes.func.isRequired
 };
